@@ -9,5 +9,4 @@ This is a simple and stylish restaurant menu webpage designed using only one HTM
 - Three sections: Starters, Mains, Desserts
 - No JavaScript or external libraries needed
 
-## 📁 Project Structure
 
