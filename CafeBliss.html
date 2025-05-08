@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Café Bliss Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f4e3;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .menu-container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff7e6;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #8b5e3c;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #d4a373;
+      color: #6f4e37;
+      padding-bottom: 8px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px dashed #ccc;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .item-name {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .price {
+      color: #6f4e37;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .price {
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>☕ Café Bliss Menu</h1>
+
+    <div class="section">
+      <h2>Starters</h2>
+      <div class="menu-item"><span class="item-name">Garlic Bread</span><span class="price">$3.50</span></div>
+      <div class="menu-item"><span class="item-name">Bruschetta</span><span class="price">$4.00</span></div>
+      <div class="menu-item"><span class="item-name">Mini Croissants</span><span class="price">$3.00</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Mains</h2>
+      <div class="menu-item"><span class="item-name">Grilled Cheese Sandwich</span><span class="price">$6.50</span></div>
+      <div class="menu-item"><span class="item-name">Chicken Wrap</span><span class="price">$7.00</span></div>
+      <div class="menu-item"><span class="item-name">Veggie Burger</span><span class="price">$6.80</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Desserts</h2>
+      <div class="menu-item"><span class="item-name">Chocolate Muffin</span><span class="price">$2.80</span></div>
+      <div class="menu-item"><span class="item-name">Cinnamon Roll</span><span class="price">$3.20</span></div>
+      <div class="menu-item"><span class="item-name">Fruit Tart</span><span class="price">$3.50</span></div>
+    </div>
+  </div>
+</body>
+</html>
